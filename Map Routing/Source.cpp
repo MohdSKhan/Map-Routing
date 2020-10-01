@@ -150,6 +150,7 @@ int main()
 	freopen("All.txt","r",stdin);
 	Read_Map();
 	Read_Routes();
+	//use manual clock function here
 	clock_t End_Map_Routing=clock();
 	cout<<"\nAll Done\nMap_Routing\n";
 	cout<<"Total program time = "<<End_Map_Routing-Start_Map_Routing<<"ms\n\n";
